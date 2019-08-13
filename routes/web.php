@@ -25,8 +25,8 @@ Route::group([
     Route::post('me', 'AuthController@me');
 });
 Auth::routes();
-Route::get('/Employees', 'EmployeesController@getEmployee');
-Route::post('/Employees', 'EmployeesController@setEmployee');
-Route::delete('/Employees', 'EmployeesController@deleteEmployee');
-Route::put('/Employees', 'EmployeesController@updateEmployee');
+Route::get('/Employees', 'EmployeesController@show');
+Route::post('/Employees', 'EmployeesController@write');
+Route::delete('/Employees', 'EmployeesController@destroyEmployee');
+Route::put('/Employees', 'EmployeesController@newInformation');
 
