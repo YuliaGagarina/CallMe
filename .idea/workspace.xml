@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b798deec-f141-4241-8d34-5d479acdce7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repository/EmployeesRepositoryInterface.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/RightsController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Repository/RightsInterface.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/EmployeesRepository.php" afterPath="$PROJECT_DIR$/app/Repository/EmployeesRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/ProvidersRepository.php" afterPath="$PROJECT_DIR$/app/Repository/ProvidersRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repository/TransportersRepository.php" afterPath="$PROJECT_DIR$/app/Repository/TransportersRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +36,8 @@
       <file leaf-file-name="EmployeesRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repository/EmployeesRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="306">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="e#114#132#0#PHP" expanded="true" />
               </folding>
@@ -79,10 +70,11 @@
       <file leaf-file-name="EmployeesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="e#40#88#0#PHP" expanded="true" />
+                <element signature="e#221#4007#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -115,9 +107,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_08_09_062925_create_employees_table.php" />
         <option value="$PROJECT_DIR$/app/Employees.php" />
         <option value="$USER_HOME$/filmsearch/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Repository/EmployeesRepository.php" />
         <option value="$PROJECT_DIR$/app/Repository/EmployeesRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Repository/EmployeesRepository.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php" />
       </list>
     </option>
@@ -243,18 +235,17 @@
       <workItem from="1565279034547" duration="6781000" />
       <workItem from="1565340883140" duration="15955000" />
       <workItem from="1565596270142" duration="7269000" />
-      <workItem from="1565705053868" duration="3022000" />
+      <workItem from="1565705053868" duration="5196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33027000" />
+    <option name="totallyTimeSpent" value="35201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -375,6 +366,7 @@
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="e#40#88#0#PHP" expanded="true" />
+            <element signature="e#221#4007#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Repository/EmployeesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="306">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="e#114#132#0#PHP" expanded="true" />
           </folding>
@@ -686,10 +678,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EmployeesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="e#40#88#0#PHP" expanded="true" />
+            <element signature="e#221#4007#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

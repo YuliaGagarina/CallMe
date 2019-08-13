@@ -62,10 +62,10 @@ class EmployeesRepository implements EmployeesRepositoryInterface
         return $employee;
     }
 
-    public function updateEmployee($name, $newData, 'new Data')
+    public function updateEmployee($name, $newData)
     //$new Data - подразумеваю ячейку и значение, которые нужно заменить
     {
-        $employee = \App\Employee::where('name', $name)->set('new Data', $new Data);
+        $employee = \App\Employee::where('name', $name)->set('new Data', $newData);
         return $employee;
     }
 }
