@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group([
+    'middleware' => 'api',
+    'prefix' => 'auth'
+], function ($router) {
+    Route::post('login', 'AuthController@login');
+    Route::post('logout', 'AuthController@logout');
+    Route::post('refresh', 'AuthController@refresh');
+    Route::post('me', 'AuthController@me');
+});
+Auth::routes();
+Route::get('/Employees', 'EmployeesController@getEmployee');
+Route::post('/Employees', 'EmployeesController@setEmployee');
+Route::delete('/Employees', 'EmployeesController@deleteEmployee');
+Route::put('/Employees', 'EmployeesController@updateEmployee');
+

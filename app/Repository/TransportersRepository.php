@@ -29,6 +29,12 @@ class TransportersRepository
         return $transporter;
     }
 
+    public function findByName($name)
+    {
+        $transporter = $this->model->where('Name', 'like', '%$name%')->all();
+        return $transporter;
+    }
+
     public function transportToDB()
     {
         return [

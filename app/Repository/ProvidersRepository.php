@@ -11,5 +11,10 @@ namespace App\Repository;
 
 class ProvidersRepository
 {
-
+    private $model;
+    public function addClient()
+    {
+        $this->model->create($data);
+        return $data;
+    }
 }
