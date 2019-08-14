@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Repository\PhoneDirectoryRepository;
+use App\Repository\PhoneDirectoryRepositoryInterface;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +26,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->bind(PhoneDirectoryRepositoryInterface::class,
+            PhoneDirectoryRepository::class);
+        Schema::defaultStringLength(191);
     }
 }
