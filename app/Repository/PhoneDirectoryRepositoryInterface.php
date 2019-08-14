@@ -26,5 +26,3 @@ interface PhonesDirectoryRepositoryInterface
 
     public function findPhoneByName();
 }
-
-// для разнообразия

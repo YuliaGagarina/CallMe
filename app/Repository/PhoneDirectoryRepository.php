@@ -21,8 +21,6 @@ class PhoneDirectoryRepository implements PhoneDirectoryRepositoryInterface
 {
     private $model;
 
-    // и здесь тоже для разнообразия
-
     private function __construct()
     {
         $this->model = app(Phones::class);

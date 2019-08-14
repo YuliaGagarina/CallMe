@@ -108,9 +108,6 @@ class PhoneDirectoryController extends Controller
                 ], Response::HTTP_NOT_FOUND);
             }
         }
-
-        //для разнообразия
-
     }
 
     public function findByAddress(Request $request)
