@@ -9,20 +9,21 @@
 namespace App\Repository;
 
 use \Illuminate\Database\Eloquent\Collection;
+use App\Http\Controllers\PhoneDirectoryController;
 
-interface PhonesDirectoryRepositoryInterface
+interface PhoneDirectoryRepositoryInterface
 {
-    public function showAllPhones(): \Illuminate\Database\Eloquent\Collection;
+    public function showAllPhones(int $userId): \Illuminate\Database\Eloquent\Collection;
 
-    public function addNewData();
+    public function addNewData(array $data): int;
 
-    public function editNumber();
+    public function editNumber(int $id): ?\App\Phones;
 
-    public function deleteNumber();
+    public function deleteNumber(int $id);
 
-    public function findByPhone(): \Illuminate\Database\Eloquent\Collection;
+    public function findByPhone(int $tel, int $userId): \Illuminate\Database\Eloquent\Collection;
 
-    public function findNameByAddress();
+    public function findNameByAddress(int $userId, int $address): \Illuminate\Database\Eloquent\Collection;
 
-    public function findPhoneByName();
+    public function findPhoneByName(int $userId, int $name): \Illuminate\Database\Eloquent\Collection;
 }

@@ -26,13 +26,13 @@ Route::group([
 });
 
 Route::group(['middleware' => 'auth:api'], function() {
-    Route::get('phones', 'PhoneController@index'); //показать все записи по данным а справочнике
-    Route::post('phones', 'PhoneController@store'); //добавление данных в справочник
-    Route::put('phones/{id}', 'PhoneController@update'); //обновить, отредактировать номер по АйДи
-    Route::delete('phones/{id}', 'PhoneController@delete'); //удалить номер по конкретному АйДи
-    Route::get('phones/{phone}', 'PhoneController@findByNumberPhone'); //найти пользователя по номеру телефона
-    Route::get('/phones/{address}', 'PhoneController@findByAddress'); //поиск по адресу
-    Route::get('/phones/{name}', 'PhoneController@findByName'); //поиск по имени
+    Route::get('/phones', 'PhoneDirectoryController@index'); //показать все записи по данным а справочнике
+    Route::post('/phones', 'PhoneDirectoryController@store'); //добавление данных в справочник
+    Route::put('/phones/{id}', 'PhoneDirectoryController@update'); //обновить, отредактировать номер по АйДи
+    Route::delete('/phones/{id}', 'PhoneDirectoryController@delete'); //удалить номер по конкретному АйДи
+    Route::get('/phones/{phone}', 'PhoneDirectoryController@findByNumberPhone'); //найти пользователя по номеру телефона
+    Route::get('/phones/{address}', 'PhoneDirectoryController@findByAddress'); //поиск по адресу
+    Route::get('/phones/{name}', 'PhoneDirectoryController@findByName'); //поиск по имени
 });
 
 

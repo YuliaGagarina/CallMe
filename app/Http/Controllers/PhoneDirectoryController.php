@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Repository\PhoneDirectoryRepositoryInterface;
+use App\Repository\PhoneDirectoryRepository;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
